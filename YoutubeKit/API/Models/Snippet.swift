@@ -243,6 +243,17 @@ extension Snippet {
         public let channelTitle: String
         public let videoOwnerChannelTitle: String?
         public let videoOwnerChannelId: String?
+        public let description: String?
+        public let thumbnails: Thumbnails.PlaylistItemsList?
+        public let playlistId: String
+        public let position: Int
+        public let publishedAt: String
+        public let resourceID: ResourceID.PlaylistItemsList
+        public let title: String?
+        public let channelID: String
+        public let channelTitle: String
+        public let videoOwnerChannelTitle: String?
+        public let videoOwnerChannelId: String?
         public let description: String
         public let thumbnails: Thumbnails.PlaylistItemsList?
         public let playlistId: String
