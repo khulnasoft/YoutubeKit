@@ -246,7 +246,7 @@ extension Snippet {
         public let description: String?
         public let thumbnails: Thumbnails.PlaylistItemsList?
         public let playlistId: String
-        public let position: Int
+        public let position: Int?
         public let publishedAt: String
         public let resourceID: ResourceID.PlaylistItemsList
         public let title: String?
