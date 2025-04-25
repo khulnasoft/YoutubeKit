@@ -259,7 +259,7 @@ extension Snippet {
         public let playlistId: String
         public let position: Int
         public let publishedAt: String
-        public let resourceID: ResourceID.PlaylistItemsList
+        public let resourceID: ResourceID.PlaylistItemsList?
         public let title: String
         
         public enum CodingKeys: String, CodingKey {
